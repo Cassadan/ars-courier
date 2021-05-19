@@ -5,7 +5,9 @@ header,
   height: 100%;
   min-height: 100%;
 }
+
 @media (max-width: 450px) {
+
   html,
   body,
   header,
@@ -14,7 +16,9 @@ header,
     min-height: 700px;
   }
 }
+
 @media (min-width: 451px) and (max-width: 740px) {
+
   html,
   body,
   header,
@@ -23,7 +27,9 @@ header,
     min-height: 500px;
   }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
+
   html,
   body,
   header,
@@ -34,21 +40,23 @@ header,
 }
 
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1240px;
-    }
+  .container {
+    max-width: 1240px;
+  }
 }
 
 .copyright-text {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 @media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
+  .carousel-multi-item-2 .col-md-3 {
     float: left;
     width: 25%;
-    max-width: 100%; } }
-    
-    .carousel-multi-item-2 .card img {
-    border-radius: 2px;
- }
+    max-width: 100%;
+  }
+}
+
+.carousel-multi-item-2 .card img {
+  border-radius: 2px;
+}
