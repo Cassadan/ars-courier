@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/mdb.min.css" >
   <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon_package/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_package/favicon-16x16.png">
+  <link rel="manifest" href="favicon_package/site.webmanifest">
+  <link rel="mask-icon" href="favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -41,18 +49,29 @@
         <li class="nav-item ml-4">
           <a class="nav-link title" href="contacts.html" data-offset="90">Контакты</a>
         </li>
+
+        <li class="nav-item dropdown ml-4">
+          <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Услуги</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="ecommerce-delivery.html">Доставка интернет магазинам</a>
+            <a class="dropdown-item" href="day-to-day-delivery.html">Доставка день в день</a>
+            <a class="dropdown-item" href="nextday-delivery.html">Доставка на следующий день</a>
+            <a class="dropdown-item" href="rent-a-courier.html">Аренда курьера</a>
+          </div>
+        </li>
       </ul>
       
-      <ul class="navbar-nav nav-flex-icons">
-        <li class="nav-item ml-3">
-          <a class="btn aqua-gradient
-          btn-rounded btn-sm font-weight-bold" href="#" data-offset="90"><i class="fas fa-comment-dots mr-2"></i>Отдел контроля качества</a>
-        </li>
-        
-        <li class="nav-item ml-3">
-          <a class="btn peach-gradient btn-rounded btn-sm font-weight-bold" href="#" data-offset="90"><i class="far fa-user mr-2"></i>Личный кабинет</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item ml-3">
+            <a class="btn aqua-gradient
+            btn-rounded btn-sm font-weight-bold" href="contacts.html" data-offset="90"><i class="fas fa-comment-dots mr-2"></i>Отдел контроля качества</a>
+          </li>
+          
+          <li class="nav-item ml-3">
+            <a class="btn peach-gradient btn-rounded btn-sm font-weight-bold" href="https://home.courierexe.ru/126/auth/login" target="_blank" data-offset="90"><i class="far fa-user mr-2"></i>Личный кабинет</a>
+          </li>
+        </ul>
     </div>
   </div>
 </nav>
@@ -77,14 +96,8 @@
       
       <div class="row">
         <div class="col-md-12 col-lg-10 mx-auto mb-5">
-          
-          <!--Accordion wrapper-->
           <div class="accordion md-accordion accordion-flush" id="accordionEx" role="tablist" aria-multiselectable="true">
-            
-            <!-- Accordion card -->
             <div class="card border-top border-bottom-0 border-left border-right border-light">
-              
-              <!-- Card header -->
               <div class="card-header border-bottom border-light" role="tab" id="headingOne1">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1"
                 aria-expanded="false" aria-controls="collapseOne1">
@@ -94,7 +107,6 @@
               </a>
             </div>
             
-            <!-- Card body -->
             <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1"
             data-parent="#accordionEx">
             <div class="card-body">
@@ -132,12 +144,8 @@
             </div>
           </div>
         </div>
-        <!-- Accordion card -->
-        
-        <!-- Accordion card -->
+
         <div class="card border-bottom-0 border-left border-right border-light">
-          
-          <!-- Card header -->
           <div class="card-header border-bottom border-light" role="tab" id="headingTwo2">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
             aria-expanded="false" aria-controls="collapseTwo2">
@@ -147,7 +155,6 @@
           </a>
         </div>
         
-        <!-- Card body -->
         <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
         data-parent="#accordionEx">
         <div class="card-body">
@@ -196,12 +203,8 @@
       </div>
       
     </div>
-    <!-- Accordion card -->
-    
-    <!-- Accordion card -->
+
     <div class="card border-bottom-0 border-left border-right border-light">
-      
-      <!-- Card header -->
       <div class="card-header border-bottom border-light" role="tab" id="headingThree3">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
         aria-expanded="false" aria-controls="collapseThree3">
@@ -211,7 +214,6 @@
       </a>
     </div>
     
-    <!-- Card body -->
     <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
     data-parent="#accordionEx">
     <div class="card-body">
@@ -245,12 +247,8 @@
   </div>
   
 </div>
-<!-- Accordion card -->
 
-<!-- Accordion card -->
 <div class="card border-left border-right border-light">
-  
-  <!-- Card header -->
   <div class="card-header border-bottom border-light" role="tab" id="headingThree4">
     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree4"
     aria-expanded="false" aria-controls="collapseThree4">
@@ -260,7 +258,6 @@
   </a>
 </div>
 
-<!-- Card body -->
 <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4"
 data-parent="#accordionEx">
 <div class="card-body">
@@ -298,12 +295,8 @@ data-parent="#accordionEx">
 </div>
 
 </div>
-<!-- Accordion card -->
 
-<!-- Accordion card -->
 <div class="card border-left border-right border-light">
-  
-  <!-- Card header -->
   <div class="card-header border-bottom border-light" role="tab" id="headingThree5">
     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree5"
     aria-expanded="false" aria-controls="collapseThree5">
@@ -313,7 +306,6 @@ data-parent="#accordionEx">
   </a>
 </div>
 
-<!-- Card body -->
 <div id="collapseThree5" class="collapse" role="tabpanel" aria-labelledby="headingThree5"
 data-parent="#accordionEx">
 <div class="card-body">
@@ -350,13 +342,8 @@ data-parent="#accordionEx">
 </div>
 
 </div>
-<!-- Accordion card -->
 
-
-<!-- Accordion card -->
 <div class="card border-left border-right border-light">
-  
-  <!-- Card header -->
   <div class="card-header border-bottom border-light" role="tab" id="headingThree6">
     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree6"
     aria-expanded="false" aria-controls="collapseThree6">
@@ -366,7 +353,6 @@ data-parent="#accordionEx">
   </a>
 </div>
 
-<!-- Card body -->
 <div id="collapseThree6" class="collapse" role="tabpanel" aria-labelledby="headingThree6"
 data-parent="#accordionEx">
 <div class="card-body">
@@ -399,10 +385,8 @@ data-parent="#accordionEx">
 </div>
 
 </div>
-<!-- Accordion card -->
 
 </div>
-<!-- Accordion wrapper -->
 
 </div>
 </div>
