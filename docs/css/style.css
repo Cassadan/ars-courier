@@ -5,6 +5,9 @@ header,
   height: 100%;
   min-height: 100%;
 }
+.text-shadow {
+  text-shadow: black 0 0 5px;
+}
 
 @media (max-width: 450px) {
 
